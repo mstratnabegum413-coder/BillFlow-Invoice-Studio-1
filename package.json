@@ -1,0 +1,15 @@
+{
+  "name": "billflow-invoice-studio",
+  "version": "1.0.3",
+  "private": true,
+  "description": "Offline-first invoice studio. No backend, zero dependencies.",
+  "license": "SEE LICENSE-NOTE.md",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node tests/invoice-calc.test.js",
+    "check": "node --check app.js && node --check service-worker.js && node --check js/invoice-calc.js && node --check js/storage.js && node --check js/backup.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

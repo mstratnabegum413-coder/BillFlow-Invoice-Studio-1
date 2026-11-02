@@ -1,0 +1,18 @@
+{
+  "name": "BillFlow - Invoice Studio",
+  "short_name": "BillFlow",
+  "description": "Create, track and print clean invoices. Works offline.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#2748e8",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
